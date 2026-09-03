@@ -102,6 +102,9 @@
 .p-card-txt-wrap p:last-child {
     margin-bottom: 0;
 }
+.p-card-txt-wrap li {
+    text-align: justify;
+}
 
 @media (min-width:641px) {
 .p-card-row.reverse .p-card-img-wrap {
