@@ -105,7 +105,7 @@
 .p-card-txt-wrap li {
     text-align: justify;
 }
-p {
+p, li {
     text-align: justify;
 }
 
