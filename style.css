@@ -105,9 +105,12 @@
 .p-card-txt-wrap li {
     text-align: justify;
 }
+
+/*
 p, li {
     text-align: justify;
 }
+*/
 
 @media (min-width:641px) {
 .p-card-row.reverse .p-card-img-wrap {
