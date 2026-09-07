@@ -97,14 +97,17 @@
     font-size: 0.95rem;
     line-height: 1.5;
     color: #475569;
-    text-align: justify;
+/*  text-align: justify;*/
 }
 .p-card-txt-wrap p:last-child {
     margin-bottom: 0;
 }
+
+/*
 .p-card-txt-wrap li {
     text-align: justify;
 }
+*/
 
 /*
 p, li {
