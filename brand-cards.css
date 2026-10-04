@@ -1,7 +1,3 @@
-/* ==========================================================================
-   Универсальный компонент карточки бренда / оборудования (.brand-card)
-   ========================================================================== */
-
 .brand-card {
   --bc-primary: #fe2b06;
   --bc-primary-light: #fff5f3;
@@ -15,7 +11,6 @@
   box-sizing: border-box;
   width: 100%;
   margin: 0;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color: var(--bc-text-main);
   background: var(--bc-surface);
   border: 1px solid var(--bc-border);
@@ -30,7 +25,6 @@
   box-sizing: border-box;
 }
 
-/* Шапка карточки */
 .brand-card-header {
   background: #ffffff;
   padding: 32px 28px 24px 28px;
@@ -66,12 +60,10 @@
   color: var(--bc-text-sub);
 }
 
-/* Тело карточки */
 .brand-card-body {
   padding: 28px;
 }
 
-/* Вводное описание */
 p.brand-card-desc {
   font-size: 15px;
   color: var(--bc-text-main);
@@ -80,7 +72,6 @@ p.brand-card-desc {
   display: block !important;
 }
 
-/* Сетка показателей / метрик */
 .brand-card-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -110,7 +101,6 @@ p.brand-card-desc {
   color: var(--bc-text-sub);
 }
 
-/* Заголовки секций внутри тела */
 .brand-card-section-title {
   font-size: 13px;
   font-weight: 700;
@@ -120,7 +110,6 @@ p.brand-card-desc {
   margin-bottom: 12px;
 }
 
-/* Теги / направления */
 .brand-card-tags {
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +127,6 @@ p.brand-card-desc {
   font-weight: 500;
 }
 
-/* Опциональные блоки преимуществ / стратегии */
 .brand-card-features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -193,7 +181,6 @@ p.brand-card-desc {
   color: var(--bc-text-main);
 }
 
-/* Нижняя панель (дилерская / сервисная) */
 .brand-card-panel {
   background: var(--bc-primary-light);
   border: 1px solid var(--bc-primary-border);
